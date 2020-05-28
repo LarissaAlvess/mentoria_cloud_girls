@@ -1,0 +1,81 @@
+/*body {
+    
+
+}*/
+
+#banner {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.principal {
+    background: #eb9ebb;
+    padding: 10px;
+    margin: 26px;
+    border-radius: 10px;
+
+}
+
+.titulo-principal {
+    text-align: center;
+    color: #76068d;
+    padding-left: 20px;
+
+}
+
+.titulo-centralizado {
+    color: #76068d;
+    text-align: center;
+    font-size: 27px;
+    margin-block-end: 19px;
+}
+    
+}
+
+p {
+    text-align: center;
+        
+}
+
+/*modo de chamar o id aqui no css*/
+#missao {
+    font-size: 20px;
+
+}
+
+em strong {
+    color: #6355e0;
+    
+}
+
+/*modo de chamar a classe*/
+.itens {
+    font-style: italic; /*dessa forma o itálico é apenas um estilo visual e não uma ênfase*/
+
+}
+
+.beneficios {
+    background: #f8e1d3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    display: inline-block; /*limita o conteúdo das linhas da lista em block | inline significa que fica o tamanho da img block significa que ela está 100% do espaço da pag*/
+    vertical-align: top; /*eleva o conteúdo ao topo do bloco*/
+    width: 20%;
+    margin-right: 15%;
+
+}
+
+.imagembeneficios {
+    width: 50%;
+    border: 3px solid #2581cc;
+    border-radius: 15px;
+    padding: 3px;
+}

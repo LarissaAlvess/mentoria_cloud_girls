@@ -1,0 +1,56 @@
+<!--Etapa 3 do curso da Oracle ONE / html e css part 1. Primeiros comandos-->
+
+
+<!DOCTYPE html> <!--Esta tag indica que estamos utilizando o padrão mais recente do html, no caso o html 5. Ela é necessária para que o navegador renderize o arquivo html de forma correta-->
+<html lang="pt-br"> <!--É importante também sinalizar onde começa e termina o html. A propriedade está definindo o idioma.-->
+    
+    <head><!--Dentro desta tag só as informações que quero passar para o navegador-->
+        <meta charset="UTF-8"> <!--resolve problemas de acentuação-->
+        <title>Manicure Alura</title> <!--título da página-->
+        <link rel="stylesheet" href=style.css> <!--resgasta o estilo da página no arquivo externo de css-->
+    
+    </head>
+
+    <body><!--Nesta tag estão os conteúdos que quero exibir no browser-->
+
+        <header><!--tag de cabeçalho-->
+            <h1 class="titulo-principal">Manicure Alura</h1>
+        </header>
+
+        <img id="banner" src="./unhas_banner.jpg">
+        <div class="principal">
+            <h2 class="titulo-centralizado">Sobre a Manicure Alura</h2> <!--a propriedade está linhando ao centro-->
+
+            <!--usar esta tag quando quiser mostrar a importancia do conteúdo-->
+            <p>Localizada no coração da cidade a <strong>Manicure Alura</strong> traz para o mercado o que há de melhor para o suas unhas.</p>
+                
+            <p>Fundada em 2019, a Manicure Alura já é destaque na cidade e conquista novas clientes a cada dia.</p>
+
+            <!--tag emphasis para dar ênfase, destque ao texto e torná-lo itálico-->
+            <!--O browser usa como tamanho de fonte padrão 16px-->
+            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e estimular o auto-cuidado como prática recorrente na vida de nossas clientes".</strong></em></p>
+
+            <p>Oferecemos profissionais experientes e antenadas às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação das nossas clientes.</p>
+
+
+        </div>
+        
+        <div class="beneficios">
+            <h3 class="titulo-centralizado">Benefícios</h3>
+
+            <ul> <!--tag para listagem. Neste caso é uma tag não ordenada, para tags ordenadas usar <ol>-->
+                <li class="itens">Atendimento aos clientes</li> <!--tags necessárias para marcar cada elemento da lista e mante-las uma abaixo da outra. As classes podem ser repetidas e servem para marcar os itens para depois por um estilo neles no css, diferentemente dos id que é exclusivo do elemento-->
+                <li class="itens">Espaço diferenciado</li>
+                <li class="itens">Localização</li>
+                <li class="itens">Profissionais Qualificadas</li>
+            </ul>
+
+            <img src="./manicure.jpg" class="imagembeneficios">
+
+        </div>
+        
+
+    </body>
+
+</html>
+
